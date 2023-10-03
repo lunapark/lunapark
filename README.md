@@ -6,7 +6,7 @@
 
 You can try out the editor on the [Luna Park website](https://luna-park.app). If you want to learn how to use visual scripting, you can take up the [Luna Park challenge](https://luna-park.app/challenge), a series of puzzle that will teach you the basics in a gamified way.
 
-![image](https://github.com/lunapark/lunapark/assets/4563971/c0fb5c73-7201-42ff-b7c0-ec32cf522e5f)
+![image](https://github.com/lunapark/lunapark/assets/4563971/a414afad-9c13-4c2a-81ae-b032e6742a42)
 
 ### Bug report and suggestion
 
