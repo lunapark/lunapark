@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/4563971/213183074-38c970f9-9071-4f1d-a8ec-09a52ea595da.png)
+![image](https://github.com/user-attachments/assets/62e987ea-9e45-4bcb-9587-d068dff6cc87)
 
 # 🎡 Welcome to Luna Park
 
