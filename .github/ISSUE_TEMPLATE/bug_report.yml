@@ -1,0 +1,69 @@
+name: Bug report
+description: Report a reproducible problem with Luna Park.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues before submitting. For usage questions, use the community forum or Discord.
+        Reports are public. Remove secrets and private data from examples, screenshots, and diagnostics.
+  - type: input
+    id: version
+    attributes:
+      label: Luna Park version
+      description: Copy the version shown in the app, or state that the browser editor does not show one.
+    validations:
+      required: true
+  - type: dropdown
+    id: editor
+    attributes:
+      label: Editor
+      options:
+        - Browser
+        - Desktop
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system and version, architecture, and browser/version if applicable.
+      placeholder: Windows 11 x64, Chrome 140
+    validations:
+      required: true
+  - type: input
+    id: feature
+    attributes:
+      label: Affected feature
+      description: For example, layouts, visual logic, stores, APIs, database, Sidekick, plugins, saving, or exports.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include the smallest example or sanitized project needed to reproduce the problem.
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the exact error message when available.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Screenshots or diagnostics
+      description: Optional. Attach screenshots or paste sanitized diagnostic text. Remove keys, personal data, and private project content or paths.

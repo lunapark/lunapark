@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest an improvement to Luna Park.
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing requests before submitting. Describe the problem and a concrete example of how the change would help.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What are you trying to do, and what currently gets in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Desired behavior
+      description: Describe how you would expect the feature to work.
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Current workaround
+      description: Explain what you do today, or state that you have no workaround.
+    validations:
+      required: true

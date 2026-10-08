@@ -1,17 +1,23 @@
-# FAQ about source code
+# Source code and project ownership
 
-## Can we expect Luna Park's code to be open source in the future?
+## The Luna Park editor
 
-We recognize the value of open source and we're definitely open to the idea of making the Luna Park visual scripting editor open source in the future. However, currently, the code is closely intertwined with our webapp, which won't be open source. Separating the code would require an immense amount of time and resources, which we're not able to commit to right now.
+Luna Park's browser editor and desktop application are proprietary software. This public repository contains product information and feedback tools; it does not contain the editor source code or grant an open-source license to the editor.
 
-## Can the git repo for Luna Park be made open source since the NPM package source is already available?
+Use the [browser editor](https://luna-park.app/editor) or the desktop download provided on the [official website](https://luna-park.app/).
 
-We understand the desire for open source and appreciate the accessibility it provides. However, the NPM package source is only a transpiled version of the codebase, and tree-shaking is used to remove any irrelevant code that we're not ready to share. As a result, there is much more to our codebase than what is available through the NPM package.
+## Your applications
 
-## How can we be assured of the security of Luna Park if the code is not open source?
+You retain your rights in the projects, source, data, and assets you create, subject to the rights of any third-party material you include.
 
-We understand the concerns regarding security, but it's important to note that reviewing the entire codebase of a package can be a daunting task. Even if Luna Park were open source, it's unlikely that every user would be able to thoroughly review the entire codebase. However, we ensure that our packages are not obfuscated, allowing for efficient analysis by automated security tools.
+Where your plan includes source export, you can export your application, edit it with conventional development tools, and host it on your chosen infrastructure. Exporting an application does not include the proprietary Luna Park editor source.
 
-## What happens if Luna Park is no longer maintained in the future?
+See the [current plans](https://luna-park.app/pricing) and [terms of use](https://luna-park.app/terms-of-use) for the rights and features applicable to your use.
 
-We take this concern seriously, and have addressed it in our licensing terms. If we ever cease active maintenance of Luna Park, we are committed to releasing the entire codebase under a Creative Commons license. This ensures that the code remains accessible and can continue to be used and developed by the community.
+## Dependencies and plugins
+
+Third-party npm packages, Vue component libraries, plugins, and any components included in an export remain subject to their own licenses and notices.
+
+## Future source release
+
+The commitment to release the codebase if active maintenance is discontinued is preserved in the [licensing notice](LICENSE.md#future-source-release-commitment). This is a future commitment, not a current open-source release.
